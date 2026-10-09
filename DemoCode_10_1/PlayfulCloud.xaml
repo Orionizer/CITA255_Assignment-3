@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoCode_10_1.PlayfulCloud"
+             Title="PlayfulCloud">
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+            <Image WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdKpb_g-BUChxy3qhFzOmP9LetXiu5cN9SzcJhZH-f9A"/>
+            <Label Text = "Playful Cloud" FontSize="30"/>
+            <Label Text = "A Special Grade, three section staff in which its power scales off the users physical strength."/>
+            <Label Text = "$20,056.20" TextColor="Red"/>
+            <Label Text = "In Stock" TextColor="Green"/>
+            <Entry x:Name="QuantityEntry" Placeholder="Select Quantity to add to cart"/>
+            <Button Text="Add to Cart" Clicked="CartClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

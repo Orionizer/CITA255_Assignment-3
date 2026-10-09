@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoCode_10_1.SlaughterDemon"
+             Title="SlaughterDemon">
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+            <Image WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNoz2D_N6gng1NShrNSrHbr8UiFdqMKzfsKUvDl779WQ"/>
+            <Label Text = "Slaughter Demon" FontSize="30"/>
+            <Label Text = "A simple imbued knife that anyone can use."/>
+            <Label Text = "$1427.89" TextColor="Red"/>
+            <Label Text = "In Stock" TextColor="Green"/>
+            <Entry x:Name="QuantityEntry" Placeholder="Select Quantity to add to cart"/>
+            <Button Text="Add to Cart" Clicked="CartClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

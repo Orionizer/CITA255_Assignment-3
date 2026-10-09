@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoCode_10_1.ISOH"
+             Title="ISOH">
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+            <Image WidthRequest="300" HeightRequest="300" HorizontalOptions="Start" Source="https://cdn.media.amplience.net/s/hottopic/30886975_hi"/>
+            <Label Text = "Inverted Spear of Heaven" FontSize="30"/>
+            <Label Text = "A dagger that was said to be once a part of a spear, forces the deactivation of any technique that touches it"/>
+            <Label Text = "$103,580.01" TextColor="Red"/>
+            <Label Text = "Out of Stock" TextColor="DarkRed"/>
+            <Entry x:Name="QuantityEntry" Placeholder="Select Quantity to add to cart"/>
+            <Button Text="Add to Cart" Clicked="CartClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

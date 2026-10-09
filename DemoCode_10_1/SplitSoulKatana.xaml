@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoCode_10_1.SplitSoulKatana"
+             Title="SplitSoulKatana">
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+            <Image WidthRequest="200" HeightRequest="200" HorizontalOptions="Start" Source="https://www.medievalcollectibles.com/wp-content/uploads/2024/10/NP-FS300_5.jpg"/>
+            <Label Text = "Split Soul Katana" FontSize="30"/>
+            <Label Text = "A long cleaver capable of slicing through the soul, ignoring durability"/>
+            <Label Text = "$15,823.99" TextColor="Red"/>
+            <Label Text = "In Stock" TextColor="Green"/>
+            <Entry x:Name="QuantityEntry" Placeholder="Select Quantity to add to cart"/>
+            <Button Text="Add to Cart" Clicked="CartClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
